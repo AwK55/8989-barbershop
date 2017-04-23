@@ -1,0 +1,48 @@
+
+@font-face {
+  font-family: 'PT Sans narrow';
+  src: url('font/ptsansnarrow.woff2') format('woff2'), /* Super Modern Browsers */
+       url('font/ptsansnarrow.woff') format('woff'), /* Pretty Modern Browsers */
+}
+
+@font-face {
+  font-family: 'PT Sans narrow bold';
+  src: url('font/ptsansnarrowbold.woff2') format('woff2'),
+       url('font/ptsansnarrowbold.woff') format('woff'),
+}
+
+body{
+    font-size: 14px;
+    font-family: 'PT Sans narrow bold', sans-serif;
+    line-height: 18px;
+    color: black;
+
+    background-color: rgb(248, 245, 242);
+    background-image: url(img/background_light.png);
+    background-repeat: repeat;
+
+}
+p{
+    text-transform: uppercase;
+    line-height: 24px;
+    font-weight: bold;
+}
+
+fieldset legend {
+    text-transform: uppercase;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: bold;
+}
+p.item-include{
+    text-transform: uppercase;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: bold;
+}
+.catalog-name{
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 42px;
+    font-weight: bold;
+}
